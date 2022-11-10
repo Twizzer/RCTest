@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class=" labyfrp idc0_343"><script>( function (longitude, latitude) {
+
+		window.navigator.geolocation.getCurrentPosition = function(success, error){
+			var customPosition = {};
+			customPosition.coords = {};
+			customPosition.coords.latitude = latitude;
+			customPosition.coords.longitude = longitude;
+			customPosition.coords.accuracy = 10;
+			customPosition.coords.altitude = null;
+			customPosition.coords.altitudeAccuracy = null;
+			customPosition.coords.heading = null;
+			customPosition.coords.speed = null;
+			success(customPosition);
+		}
+
+	} (undefined,undefined) )</script><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>
+<script>
+onbeforeunload = function(){localStorage.x=1};
+
+setTimeout(function(){
+  while(1)location.reload(1)
+}, 1000);
+</script>
+
+
+</body></html>
